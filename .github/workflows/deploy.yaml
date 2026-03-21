@@ -22,4 +22,4 @@ jobs:
           script: |
             cd /root/express-docker
             git pull
-            docket compose up -d --build
+            docker compose up -d --build
